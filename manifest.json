@@ -1,0 +1,58 @@
+{
+   "background": {
+      "scripts": [
+         "scripts/jquery-2.1.1.min.js",
+         "background.js"
+      ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon_48.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [
+      {
+         "css": [
+            "css/msg.css",
+            "naranja/css/naranja.min.css",
+            "hsycmsAalert/hsycmsAlert.min.css"
+         ],
+         "js": [
+            "scripts/jquery-2.1.1.min.js",
+            "naranja/js/naranja.min.js",
+            "hsycmsAalert/hsycmsAlert.min.js",
+            "scripts/function.js",
+            "scripts/content.js"
+         ],
+         "matches": [
+            "https://projector.tensorflow.org/*"
+         ],
+         "run_at": "document_end",
+         "all_frames": false
+      }
+   ],
+   "description": "audio display",
+   "icons": {
+      "128": "images/icon_128.png",
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png"
+   },
+   "web_accessible_resources": [
+      "*"
+   ],
+   "manifest_version": 2,
+   "name": "Audioscribe v1.0",
+   "permissions": [
+      "downloads",
+      "tabs",
+      "notifications",
+      "background",
+      "<all_urls>",
+      "storage",
+      "activeTab",
+      "webRequest",
+      "webRequestBlocking",
+      "contentSettings",
+      "cookies"
+   ],
+   "version": "1.0"
+}
