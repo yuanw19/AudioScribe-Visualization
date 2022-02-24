@@ -2,7 +2,9 @@
 This is a chrome extension for the data visualzation tool "projector TensorFlow". It creates extra functionalities of the projector TensorFlow.
 
 MUST HAVE CHROME INSTALLED
+
 MUST HAVE AUDIOSCRIBE EXTENSION ADDED IN CHROME
+
 ################################################################
 
 ### HOW TO ADD CHROME EXTENSION
