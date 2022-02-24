@@ -21,7 +21,7 @@ Select the directory from your desktop of this chrome extension file
 
 The page will display the AudioScribe extension
 
-![image](https://github.com/yuanw19/AudioScribe-Visualization/blob/main/images/Readme_extension.png)
+![image](/images/Readme_extension.png)
 
 ################################################################
 
@@ -35,7 +35,7 @@ On the top left region of the website, click "Load"
 
 Import a TSV file. The file has to be .tsv
 
-![image](https://github.com/yuanw19/AudioScribe-Visualization/blob/main/images/Readme_Tensorflow.png)
+![image](/images/Readme_Tensorflow.png)
 
 The website will display the vector for the uploaded data. By clicking on each data vector, the corresponding audio wav files will pop up in another site.
 
