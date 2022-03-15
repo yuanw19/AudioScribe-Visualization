@@ -35,7 +35,7 @@ On the top left region of the website, click "Load"
 
 Import a TSV file. The file has to be .tsv
 
-![image](/Image/Readme_Tensorflow.png)
+![image](/Image/Readme_tensor.png)
 
 The website will display the vector for the uploaded data. By clicking on each data vector, the corresponding audio wav files will pop up in another site.
 
