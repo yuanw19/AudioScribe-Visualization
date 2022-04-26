@@ -37,7 +37,7 @@ MUST HAVE AUDIOSCRIBE EXTENSION ADDED IN CHROME
 
 5. Once finished, exit the uploading interface. By clicking on each generated data, you are able to 
 
-view the detailed information about it
+   view the detailed information about it
 
 ![image](/Image/Readme_tensor.png)
 
