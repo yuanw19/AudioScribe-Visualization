@@ -19,7 +19,7 @@ MUST HAVE AUDIOSCRIBE EXTENSION ADDED IN CHROME
 
 5. Select the directory from your desktop of this chrome extension file
 
-The page will display the AudioScribe extension
+6. The page will then display the AudioScribe extension (image below)
 
 ![image](/Image/Readme_extension.png)
 
@@ -27,13 +27,13 @@ The page will display the AudioScribe extension
 
 ### HOW TO USE IT
 
-Open Chrome
+1. Open Chrome
 
-Go to "https://projector.tensorflow.org/"
+2. Go to "https://projector.tensorflow.org/" (image below)
 
-On the top left region of the website, click "Load"
+3. On the top left region of the website, click "Load"
 
-Import a TSV file. The file has to be in .tsv
+4. In "Step 1", click on "Choose file" to upload the data from your computer. The data has to be in .tsv
 
 ![image](/Image/Readme_tensor.png)
 
