@@ -13,9 +13,9 @@ document.onclick = function(e)
         var audioLink;
         // check if the audio has been clicked
         if (prevWord==wordCount.innerHTML){
-            audioLink = "<audio controls style='width: 200px;'><source src="+audioSource+" type='audio/wav'></audio>";
+            audioLink = "<audio controls style='width: 250px;'><source src="+audioSource+" type='audio/wav'></audio>";
         }else{
-            audioLink = "<audio controls autoplay style='width: 200px;'><source src="+audioSource+" type='audio/wav'></audio>";
+            audioLink = "<audio controls autoplay style='width: 250px;'><source src="+audioSource+" type='audio/wav'></audio>";
         }
         // the image html that need to insert
         var extendImage = "<div class=\"word image\">"+imageLink+"</div>";
