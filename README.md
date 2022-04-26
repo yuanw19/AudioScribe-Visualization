@@ -36,7 +36,6 @@ MUST HAVE AUDIOSCRIBE EXTENSION ADDED IN CHROME
 4. In "Step 1", click on "Choose file" to upload the data from your computer. The data has to be in .tsv
 
 5. Once finished, exit the uploading interface. By clicking on each generated data, you are able to 
-
    view the detailed information about it
 
 ![image](/Image/Readme_tensor.png)
