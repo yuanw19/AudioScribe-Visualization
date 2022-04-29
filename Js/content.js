@@ -7,15 +7,15 @@ document.onclick = function(e)
         // the source of the image
         var imageSource = 'https://www.ics.uci.edu/~jinlid/'+wordCount.innerHTML+'.png';
         // the link of the image
-        var imageLink = "<img src ="+imageSource+" width='250' height='150' margin-left: -550px;></img>";
+        var imageLink = "<img src ="+imageSource+" width='250' height='150';></img>";
         // the source of the audio
         var audioSource = 'https://www.ics.uci.edu/~jinlid/'+wordCount.innerHTML+'.wav';
         var audioLink;
         // check if the audio has been clicked
         if (prevWord==wordCount.innerHTML){
-            audioLink = "<audio controls style='width: 250px;'><source src="+audioSource+" type='audio/wav'></audio>";
+            audioLink = "<audio controls style='width: 250px; height: 30px'><source src="+audioSource+" type='audio/wav'></audio>";
         }else{
-            audioLink = "<audio controls autoplay style='width: 250px;'><source src="+audioSource+" type='audio/wav'></audio>";
+            audioLink = "<audio controls autoplay style='width: 250px; height: 30px'><source src="+audioSource+" type='audio/wav'></audio>";
         }
         // the image html that need to insert
         var extendImage = "<div class=\"word image\">"+imageLink+"</div>";
