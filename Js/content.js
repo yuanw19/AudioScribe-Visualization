@@ -17,9 +17,9 @@ document.onclick = function(e)
         }else{
             audioLink = "<audio controls autoplay style='width: 250px; height: 30px'><source src="+audioSource+" type='audio/wav'></audio>";
         }
-        // the image html that need to insert
+        // the image html that need to be inserted
         var extendImage = "<div class=\"word image\">"+imageLink+"</div>";
-        // the audio html that need to insert
+        // the audio html that need to be inserted
         var extendAudio = "<div class=\"audio image\">"+audioLink+"</div>";
         var checkImage = document.getElementsByClassName("word image");
         var checkAudio = document.getElementsByClassName("audio image");
