@@ -23,7 +23,7 @@ MUST HAVE PYTHON INTSALLED
 
 6. The page will then display the AudioScribe extension (image below)
 
-![image](/AudioScribe-Visualization/Image/Readme_extension.png)
+![image](/Image/Readme_extension.png)
 
 ################################################################
 
@@ -57,7 +57,7 @@ MUST HAVE PYTHON INTSALLED
 11. then you can click the T-sne button,the datapoints will be processing through a T-sne process and shows the similarity between each 
     datapoints
 
-![image](/AudioScribe-Visualization//Image/Readme_tensor.png)
+![image](/Image/Readme_tensor.png)
 
 The website will display the vector for the uploaded data. By clicking on each data vector, the corresponding audio wav files will pop up in another site.
 
